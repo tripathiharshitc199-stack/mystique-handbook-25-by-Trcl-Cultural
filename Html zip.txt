@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystique '25 Event Handbook - Interactive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            scroll-behavior: smooth; /* Smooth scrolling for navigation */
+        }
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        /* --- Navigation Bar Styles --- */
+        .navbar {
+            background-color: #483d8b; /* Dark Purple */
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            margin-bottom: 20px;
+            border-radius: 0 0 5px 5px;
+        }
+        .navbar a {
+            color: #f4d03f; /* Gold accent */
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #5d4a72;
+            border-color: #f4d03f;
+        }
+        /* --- Handbook Content Styles --- */
+        h1 { color: #5d4a72; border-bottom: 3px solid #f4d03f; padding-bottom: 10px; text-align: center; }
+        h2 { color: #7b68ee; margin-top: 25px; padding-left: 10px; border-left: 5px solid #7b68ee; }
+        .event-item { margin-bottom: 15px; padding: 10px; border: 1px dashed #ccc; border-radius: 5px; }
+        .event-name { font-weight: bold; color: #d1512d; display: block; }
+        .challenge { margin-left: 20px; }
+        .key-rule { font-style: italic; color: #38761d; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #eee; }
+        .deadline {
+            background-color: #ffe0b2;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            color: #e65100;
+            margin-top: 30px;
+        }
+        a {
+            color: #7b68ee;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#flagship">Flagship Events</a>
+        <a href="#contact">📞 Contact Info</a>
+        <a href="#deadline">⚠️ Deadline Alert</a>
+    </div>
+
+    <div class="container">
+        <h1>The TRCL Cultural Committee Presents: Your Mystique '25 Event Handbook! 🤩</h1>
+        <p>Hey TRCL Students! It's time to mark your calendars and gather your squad. We've simplified the entire Mystique '25 lineup, focusing on the creative, informal, and sports events where you can showcase your performance, art, and wit!</p>
+
+        <h2 id="flagship">🏆 The Flagship Events (Go for the Gold!)</h2>
+        <div class="event-section">
+            <div class="event-item">
+                <span class="event-name">STUDENT OF THE YEAR (SOTY)</span>
+                <div class="challenge">The ultimate college champion challenge, testing intelligence, talent, and physical power across 4 rounds.</div>
+                <div class="key-rule">Participants: 1 boy & 1 girl per team.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">GLAMOUR IN PLAY (Fashion Show)</span>
+                <div class="challenge">A high-stakes fashion show with the theme 'Where Games Meet Glamour'.</div>
+                <div class="key-rule">Participants: 6-10 per team.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">SIN, SPIN AND SURVIVAL (Debate)</span>
+                <div class="challenge">A formal debate focusing on complex economic topics and industry challenges.</div>
+                <div class="key-rule">Participants: 2 per team.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">KAIROS ENTERTAINMENT PVT. LTD. (Group Dance)</span>
+                <div class="challenge">Group dance based only on the songs of an allotted Bollywood production house.</div>
+                <div class="key-rule">Participants: 6-10 per team.</div>
+            </div>
+        </div>
+
+        <h2>🎭 Performing Arts & Creative Competitions</h2>
+        <div class="event-section">
+            <div class="event-item">
+                <span class="event-name">GROUND RULES (Group Street Dance)</span>
+                <div class="challenge">Own the street! R1 is based on an allotted Indian region.</div>
+                <div class="key-rule">Key Rule: Audio must be submitted in advance.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">SPIN THAT HEAT (Rap Battle)</span>
+                <div class="challenge">Unleash your verse! R1 requires an original rap sampling a Bollywood song.</div>
+                <div class="key-rule">Key Rule: The rap must be original and fully memorized.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">DO RAASTEIN (Nukkad Natak/Street Play)</span>
+                <div class="challenge">Perform two short acts on contrasting choices/themes.</div>
+                <div class="key-rule">Key Rule: NO soundtrack is allowed.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">MELODY MILAP (Music Video Magic)</span>
+                <div class="challenge">Shoot and edit a 3-minute video (last 30 seconds edited on the spot).</div>
+                <div class="key-rule">Key Rule: Max 3 participants.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">FEARVEIL (Face Painting)</span>
+                <div class="challenge">Mask of beauty & fear! Face painting based on an allotted theme.</div>
+                <div class="key-rule">Key Rule: Must bring all your own skin-safe materials.</div>
+            </div>
+        </div>
+
+        <h2>🔎 Mind Games, Art & Investigative Challenges</h2>
+        <div class="event-section">
+            <div class="event-item">
+                <span class="event-name">FINAL HOURS (Murder Mystery)</span>
+                <div class="challenge">Solve the crime! On-ground investigation and interrogation.</div>
+                <div class="key-rule">Key Rule: 2 per team (1 boy, 1 girl).</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">THE ETERNAL QUEST (Treasure Hunt)</span>
+                <div class="challenge">Find the hidden prize! On-ground Treasure Hunt following an online elimination.</div>
+                <div class="key-rule">Key Rule: 2 per team.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">TOUR DE CANVAS (Travel Poster)</span>
+                <div class="challenge">Create a tourism ad for an allotted city on a canvas.</div>
+                <div class="key-rule">Key Rule: Bring all your own art materials.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">CLIFFHANGER CHAOS (Story Writing)</span>
+                <div class="challenge">Creative writing to finish a story based on given prompts/details.</div>
+                <div class="key-rule">Key Rule: No electronic devices or references.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">ALTERNA(RRA)TIVE (Declamation)</span>
+                <div class="challenge">Adapt a famous historical speech to a changed history narrative.</div>
+                <div class="key-rule">Key Rule: Must be fully memorized.</div>
+            </div>
+        </div>
+
+        <h2>⚽ Sports & Gaming</h2>
+        <div class="event-section">
+            <div class="event-item">
+                <span class="event-name">BEYOND THE ARC</span>
+                <div class="challenge">A hybrid game combining Handball + Basketball.</div>
+                <div class="key-rule">Key Rule: The playing six must include 4 boys and 2 girls.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">KAIROS CUP (Football)</span>
+                <div class="challenge">Football with a "wild new game" twist in the rules.</div>
+                <div class="key-rule">Key Rule: All boys. Sports shoes compulsory.</div>
+            </div>
+            <div class="event-item">
+                <span class="event-name">THE DIGITAL DERBY (E-Sports)</span>
+                <div class="challenge">One-on-One Virtual Battle (E-Sports gaming).</div>
+                <div class="key-rule">Key Rule: Participants choose desired teams.</div>
+            </div>
+        </div>
+
+        <h2 id="contact">📞 Event Enquiries and Participation Help</h2>
+        <p>If you have questions about rules, submissions, or participation, please contact the following team members. These numbers are **clickable** on mobile devices.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Role</th>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Contingent Leader</td>
+                    <td>Harshit Tripathi</td>
+                    <td><a href="tel:+918830373428">+91 88303 73428</a></td>
+                </tr>
+                <tr>
+                    <td>ACL</td>
+                    <td>Surya Menon</td>
+                    <td><a href="tel:+918879450438">+91 88794 50438</a></td>
+                </tr>
+                <tr>
+                    <td>ACL</td>
+                    <td>Nishant Kahoo</td>
+                    <td><a href="tel:+919529121010">+91 95291 21010</a></td>
+                </tr>
+                <tr>
+                    <td>Cultural Co-Head</td>
+                    <td>Krisha Pithva</td>
+                    <td><a href="tel:+917977079851">+91 79770 79851</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="deadline" id="deadline">
+            <h3>⚠️ IMPORTANT DEADLINE ALERT ⚠️</h3>
+            <p>Submission materials (scripts, audio, props) are due between **November 23rd and 27th**. Don't wait—contact your team member and submit early!</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; font-size: 1.1em; color: #483d8b;">GOOD LUCK, TRCL! Let’s make this Mystique our best one yet!</p>
+    </div>
+
+</body>
+</html>
